@@ -8,29 +8,35 @@ using namespace std;
 турных переменных типа employee и выведите информацию о каждом из
 сотрудников на экран.
 */
-struct Worker
+struct employee
 {
-	char lastName[30];
-	char position[30];
+	int position;
 	float wage;
 };
 
+void Worker() {
+	setlocale(LC_ALL, "Russian");
+	const int size = 3;
+	employee mas[size];
+
+	for (int i = 0; i < size; i++)
+	{
+		cout << "Введите номер сотрудника: ";
+		cin >> mas[i].position;
+		cout << "Введите его оклад: ";
+		cin >> mas[i].wage;
+	}
+
+		cout << "№ \t $" << endl;
+	for (int i = 0; i < size; i++) {
+		cout << mas[i].position << "\t" << mas[i].wage << endl;
+	}
+
+}
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
-	const int size = 3;
-	int i, b, counter = 0;
-	Worker mas[size];
-	for (i = 0; i < size; i++)
-	{
-		cout << "Введите фамилию " << i + 1 << "-ого работника: " << endl;
-		cin >> mas[i].lastName;
-		cout << "Должность: ";
-		cin >> mas[i].position;
-		cout << "Заробная плата: ";
-		cin >> mas[i].wage;
-	}
+	Worker();
 	return 0;
 	system("pause");
 }
