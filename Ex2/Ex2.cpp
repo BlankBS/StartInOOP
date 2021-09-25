@@ -1,24 +1,30 @@
 ﻿#include <iostream>
 using namespace std;
-
-void power()
+//n- "степень числа"
+//p - показатель
+void power(double n, int p)
 {
     setlocale(LC_CTYPE, "rus");
-    float n;
-    int p;
-    cout << "Введите основание и показатель: ";
-    cin >> n >> p;
-    int n1;
-    n1 = n;
+    double linkN = n;
     for (int i = 1; i < p; i++) {
-        n*=n1;
+        n = linkN * n;
     }
     cout << n;
+    if (p == NULL) {
+        cout << n * n;
+    }
 }
 
 int main()
 {
-    power();
+    double degree;
+    int index;
+    
+    cout << "enter degree= ";
+    cin >> degree;
+    cout << "enter index= ";
+    cin >> index;
+    power(degree, index);
 }
 /*Возведение числа n в степень р — это умножение числа n на себя р раз.
 Напишите функцию с именем power(), которая в качестве аргументов при-
