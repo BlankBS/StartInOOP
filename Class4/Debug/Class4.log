@@ -1,0 +1,5 @@
+﻿  Class4.cpp
+D:\Projects_work\StartInOOP\Class4\Class4.cpp(14,11): warning C4101: py: неиспользованная локальная переменная
+D:\Projects_work\StartInOOP\Class4\Class4.cpp(12,11): warning C4101: pm: неиспользованная локальная переменная
+D:\Projects_work\StartInOOP\Class4\Class4.cpp(13,11): warning C4101: pd: неиспользованная локальная переменная
+  Class4.vcxproj -> D:\Projects_work\StartInOOP\Debug\Class4.exe
