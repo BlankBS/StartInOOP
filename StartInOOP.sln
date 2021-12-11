@@ -41,6 +41,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MasAndString3", "MasAndStri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MasAndString4", "MasAndString4\MasAndString4.vcxproj", "{98FB537C-51F5-4FA9-A583-8E585BC44556}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverloadOperations", "OverloadOperations\OverloadOperations.vcxproj", "{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverloadOperations2", "OverloadOperations2\OverloadOperations2.vcxproj", "{817DAB56-EA5D-432D-8C61-B1983CCACE2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +205,22 @@ Global
 		{98FB537C-51F5-4FA9-A583-8E585BC44556}.Release|x64.Build.0 = Release|x64
 		{98FB537C-51F5-4FA9-A583-8E585BC44556}.Release|x86.ActiveCfg = Release|Win32
 		{98FB537C-51F5-4FA9-A583-8E585BC44556}.Release|x86.Build.0 = Release|Win32
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Debug|x64.ActiveCfg = Debug|x64
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Debug|x64.Build.0 = Debug|x64
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Debug|x86.Build.0 = Debug|Win32
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Release|x64.ActiveCfg = Release|x64
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Release|x64.Build.0 = Release|x64
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Release|x86.ActiveCfg = Release|Win32
+		{BD06B641-F000-4DCD-82B6-516C2AC6CFFF}.Release|x86.Build.0 = Release|Win32
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Debug|x64.ActiveCfg = Debug|x64
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Debug|x64.Build.0 = Debug|x64
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Debug|x86.ActiveCfg = Debug|Win32
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Debug|x86.Build.0 = Debug|Win32
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Release|x64.ActiveCfg = Release|x64
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Release|x64.Build.0 = Release|x64
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Release|x86.ActiveCfg = Release|Win32
+		{817DAB56-EA5D-432D-8C61-B1983CCACE2E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
